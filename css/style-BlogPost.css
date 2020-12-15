@@ -1,0 +1,24 @@
+@import url(stylesheet/nav.css);
+@import url(stylesheet/main.css);
+@import url(stylesheet/bio.css);
+@import url(stylesheet/footer.css);
+
+
+body {
+  margin: 0;
+ padding: 0;
+}
+
+
+.container {
+  display: grid;
+
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+  "head head head head head head"
+  "post post post post side side"
+  "footer footer footer footer footer footer";
+  grid-gap: 1rem;
+  margin:1em;
+}

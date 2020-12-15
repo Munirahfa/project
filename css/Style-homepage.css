@@ -1,0 +1,18 @@
+@import url(stylesheet/nav.css);
+@import url(stylesheet/main-homepage1.css);
+@import url(stylesheet/footer.css);
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: grid;
+  grid-gap: 300px;
+  grid-template-columns: auto auto;
+  grid-template-rows: 100px auto auto ;
+  grid-template-areas: "head head   "
+                       "main   main"
+                      " footer footer ";
+}

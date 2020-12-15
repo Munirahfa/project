@@ -1,0 +1,15 @@
+footer{
+  grid-area: footer;
+  background-color: #5F9EA0;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+
+}
+
+.soical{
+  grid-area: footer;
+}
+h6{
+  font-weight: bold;
+}
